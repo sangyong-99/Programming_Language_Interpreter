@@ -1,5 +1,3 @@
-과제 3에 구현한 인터프리터에 배열 추가.
-
 - 배열이 올 수 있는 위치
   선언문, 예) int a[10];
   배정문, 예) a[1] = 10;
@@ -9,7 +7,6 @@
 2) AST.java 에는 배열을 포함하도록 제공되고 있음
 3) Sint.java 에서, State allocate (Decl ds, State state), Value V(Expr e, State state), State Eval(Assignment a, State state) 함수를 수정
 
-자세한 내용은 강의노트 chap05.4(의미론)에 있음.
 
 int a[10];
 a[1] = 10;
